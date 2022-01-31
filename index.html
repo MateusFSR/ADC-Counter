@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter de campeoes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1> <img src="imagens/league.png" alt="" srcset="" id="lay"> Counters De Personagem</h1>
+    </header>
+
+    <main>
+        <h2>Procure o Counter do Campeão</h2>
+
+        <div class="busca">
+            <input type="search" name="champeon" id="hero" placeholder="Digite seu campeao">
+            <input type="submit" value="Pesquisar" id="go" onclick="resultado()">
+        </div>
+        <div class="resultado">
+            <p id="chp1"></p><br>
+            <p id="chp2"></p><br>
+            <p id="chp3"></p><br>
+            <p id="chp4"></p><br>
+            <p id="chp5"></p><br>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Direitos reservados ©</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
