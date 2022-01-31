@@ -167,3 +167,9 @@ footer > p{
     font-weight: bold;
     padding: 5px 0px 5px 0px;
 }
+
+#txt1{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}

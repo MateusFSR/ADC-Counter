@@ -166,6 +166,9 @@ function resultado(){
     ikai.style.height='30px'
     ikai.style.verticalAlign='-1.0vh'
 
+    txt1.innerText = `${champ} perde a lane para:`;
+    txt1.style.background= 'linear-gradient(to right,#2AA3CC ,#7f1888)';
+
         if (champ == 'Ashe'){
             chp1.innerText = cdra
             chp1.appendChild(idra)
